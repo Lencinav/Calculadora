@@ -1,0 +1,63 @@
+:root {
+    --primero: #0eac00;
+    --segundo: #00849b;
+    --tercero: #c50202;
+    --cuarto: rgb(216, 4, 198);
+    --quinto: #180083;
+    --letras: #fafafa;
+}
+
+body {
+    height: auto;
+    background-image: url(https://img.freepik.com/fotos-premium/oficina-oscura-gran-ventana-escritorio-lampara_901275-11816.jpg);
+    margin-bottom: auto;
+}
+
+.titulo {
+    background-color: var(--segundo);
+    text-align: center;
+}
+
+.mt-5 {
+    padding-top: 10%; 
+}
+
+.input {
+    width: 20%;
+    max-width: 600px;
+    margin: 0 auto;
+}
+
+.button {
+    width: 20%;
+    max-width: 600px;
+    margin: 0 auto;
+    display: flex;
+    flex-direction: row ;
+    justify-content: center;
+}
+
+.button-sumar {
+    background-color: var(--primero);
+    color: var(--letras);  
+}
+
+.button-restar {
+    background-color: var(--segundo);
+    color: var(--letras);
+}
+
+.button-multiplicar { 
+    background-color: var(--tercero);
+    color: var(--letras);
+}
+
+.button-dividir {
+    background-color: var(--cuarto);
+    color: var(--letras);
+}
+
+.button-modulo {
+    background-color: var(--quinto);
+    color: var(--letras);
+}

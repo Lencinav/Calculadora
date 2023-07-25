@@ -1,0 +1,45 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <title>Calculadora</title>
+  <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.1/dist/css/bootstrap.min.css" rel="stylesheet"
+    integrity="sha384-iYQeCzEYFbKjA/T2uDLTpkwGzCiq6soy8tYaI1GyVh/UjpbCx/TYkiZhlZB6+fzT" crossorigin="anonymous">
+  <link rel="preload" href="css/styles.css" as="style">
+  <link href="css/styles.css" rel="stylesheet">
+</head>
+
+<body>
+  <header>
+    <h1 class = "titulo">Calculadora</h1>
+  </header>
+  
+  <main>
+    <form>
+      <div class="container">
+        <div class="row mt-5">
+        <label for="numero1" class="texto-numero"></label>
+        <input type="number" class="input" id="numero1" placeholder="Ingrese el primer número">
+      </div>
+      <div class="row mt-2">
+        <label for="numero2" class="texto-numero"></label>
+        <input type="number" class="input" id="numero2" placeholder="Ingrese el segundo número">
+      </div>
+      <div class = "button">
+        <button type ="button" class="button-sumar" onclick="sumar()">Sumar</button>
+        <button type="button" class="button-restar"onclick="restar()">Restar</button>
+        <button type="button" class="button-multiplicar"onclick="multiplicar()">Multiplicar</button>
+        <button type="button" class="button-dividir"onclick="dividir()">Dividir</button>
+        <button type="button" class="button-modulo"onclick="modulo()">Módulo</button>
+      </div>
+    </div>
+    </form>
+  </main>
+
+  <script src="myScript.js"></script>
+
+</body>
+
+</html>
